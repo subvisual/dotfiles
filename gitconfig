@@ -1,2 +1,21 @@
 [init]
   templatedir = ~/.git_template
+[alias]
+    lg = log --color --graph --date=short --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(blue)[%an]%Creset' --abbrev-commit
+    conflicts = diff --name-only --diff-filter=U
+    delete = branch -D
+    co = checkout
+    ct = commit -v
+    br = checkout -b
+    r = reset HEAD
+    rh = reset --hard HEAD
+[push]
+    default = current
+[color]
+    ui = true
+[core]
+    excludesfile = ~/.gitignore
+[commit]
+    template = ~/.gitcommit
+[include]
+    path = .gitconfig.local
