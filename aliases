@@ -1,0 +1,24 @@
+#Basics
+alias ls="ls -G"
+alias a="ls -a"
+
+#Shortcuts
+alias up2="cd ../.."
+alias up3="cd ../../.."
+alias up4="cd ../../../.."
+alias up5="cd ../../../../.."
+
+# Alias for RoR
+alias r="rails"
+alias migrate="bundle exec rake db:migrate && bundle exec rake db:migrate RAILS_ENV=test"
+alias rollback="bundle exec rake db:rollback && bundle exec rake db:rollback RAILS_ENV=test"
+
+# Alias for git
+alias gst="git status -sb"
+alias gpr='hub pull-request -b'
+
+# Writing less
+alias b='bundle'
+alias be='bundle exec'
+alias cuke='cucumber'
+alias g='git'
