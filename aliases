@@ -1,12 +1,5 @@
 #Basics
 alias ls="ls -G"
-alias a="ls -a"
-
-#Shortcuts
-alias up2="cd ../.."
-alias up3="cd ../../.."
-alias up4="cd ../../../.."
-alias up5="cd ../../../../.."
 
 # Alias for RoR
 alias r="rails"
