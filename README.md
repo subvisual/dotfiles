@@ -11,18 +11,28 @@ Our dotfiles assume you're using `zsh`, set it as your login shell:
 Clone onto your laptop:
 
     git clone git://github.com/groupbuddies/dotfiles.git
-
 Install [rcm](https://github.com/thoughtbot/rcm):
 
     brew bundle dotfiles/Brewfile
 
+Configure:
+
+Although not required, you may want to start by creating your own `.rcrc` from the sample:
+
+    cp dotfiles/samples/rcrc $HOME/.rcrc
+
+And edit it (following it's comments) according to your needs
+
 Install:
 
-    rcup -d dotfiles -x README.md -x LICENSE -x Brewfile
+    rcup
+
+Or, if you did not configure your `.rcrc` file, as described above:
+
+    rcup -d dotfiles -x README.md -x LICENSE -x Brewfile -x samples
 
 This will create symlinks for config files in your home directory. The `-x`
-options, which exclude the `README.md`, `LICENSE`, and `Brewfile` files, are
-needed during installation but can be skipped once the `.rcrc` configuration
+excludes the `README.md`, `LICENSE`, and `Brewfile` files, can be skipped if you install an `.rcrc` file
 file is symlinked in.
 
 You can safely run `rcup` multiple times to update:
