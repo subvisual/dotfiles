@@ -1,0 +1,12 @@
+# Use this as a template for a $HOME/.rcrc file, to configure rcm
+
+# Space-separated list of matchers to automatically ignore when using rcup
+EXCLUDES="README.md LICENSE Brewfile samples"
+
+# By default, directories are copied, instead of symlinked.
+# We might not want that for some cases. Add here the directories you want symlinked instead
+# SYMLINK_DIRS=""
+
+# Set here the list the list of directories to scan (equivalent to the -d option)
+# You can have specify directories (i.e. company's dotfiles, followed by your local ones)
+# DOTFILES_DIR="$HOME/dotfiles $HOME/dotfiles-local"
