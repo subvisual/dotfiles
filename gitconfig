@@ -7,8 +7,6 @@
     co = checkout
     ct = commit -v
     br = checkout -b
-    r = reset HEAD
-    rh = reset --hard HEAD
 [push]
     default = current
 [color]
