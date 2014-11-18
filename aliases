@@ -8,7 +8,6 @@ alias rollback="bundle exec rake db:rollback && bundle exec rake db:rollback RAI
 
 # Alias for git
 alias gst="git status -sb"
-alias gpr='hub pull-request -b'
 
 # Writing less
 alias b='bundle'
