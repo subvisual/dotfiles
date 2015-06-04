@@ -1,5 +1,5 @@
 #Basics
-alias ls="ls -G"
+alias ls="ls -G --color"
 
 # Alias for RoR
 alias r="rails"
