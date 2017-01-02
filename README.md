@@ -1,4 +1,4 @@
-# Group Buddies dotfiles
+# Subvisual dotfiles
 
 ## Requirements
 
@@ -10,7 +10,7 @@ Our dotfiles assume you're using `zsh`, set it as your login shell:
 
 Clone onto your laptop:
 
-    git clone git://github.com/groupbuddies/dotfiles.git
+    git clone https://github.com/subvisual/dotfiles.git
 Install [rcm](https://github.com/thoughtbot/rcm):
 
     brew bundle dotfiles/Brewfile
@@ -60,14 +60,16 @@ Your `~/.gitconfig.local` might look like this:
 
 ## Credits
 
-Thank you, [contributors](https://github.com/groupbuddies/dotfiles/contributors)!
+Thank you, [contributors](https://github.com/subvisual/dotfiles/contributors)!
 Also, thank you to thoughtbot from whom we've gotten so much inspiration for this
 dotfiles.
 
-![groupbuddies](http://www.groupbuddies.com/logo.png)
+dotfiles is maintained by [Subvisual](http://subvisual.co). The names and logos
+for Subvisual are trademarks of GB-Software As A Service, Lda.
 
-Dotfiles is maintained by [Group Buddies](http://groupbuddies.com)
-The names and logos for Group Buddies are trademarks of GB-Software As A Service, Lda.
-
-This guides are Â© 2014 GB-Software As A Service, Lda. It is free software and may be
+This project is © 2014-2018 Subvisual. It is free software and may be
 redistributed under the terms specified in the [LICENSE](LICENSE) file.
+
+[![Subvisual](https://raw.githubusercontent.com/subvisual/guides/master/github/templates/subvisual_logo_with_name.png)](http://subvisual.co)
+
+If you need to contact the maintainer use [this](https://trello.com/b/svB6ZSce/areas-of-responsability-dris) trello board, or <a href="mailto:contact@subvisual.co">reach out to us</a> if you don't have access.
